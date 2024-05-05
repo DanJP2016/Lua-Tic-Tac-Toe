@@ -29,6 +29,7 @@ function check_win(letter)
       elseif board[4] == letter and board[6] == letter then
         return true
       elseif board[2] == letter and board[8] == letter then
+        return true
       end
     end
   end
